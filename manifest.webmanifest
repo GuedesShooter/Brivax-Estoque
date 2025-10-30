@@ -1,0 +1,32 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/manifest.webmanifest b/manifest.webmanifest
+index b0c09e912173ee3fbbbd086620306b6414db2d4c..de662f04e682973c18e39bea1f60e88ea6d0f47f 100644
+--- a/manifest.webmanifest
++++ b/manifest.webmanifest
+@@ -1,20 +1,20 @@
+ {
+   "name": "Brivax App",
+   "short_name": "Brivax",
+   "start_url": ".",
+   "display": "standalone",
+-  "background_color": "#0d0d0f",
+-  "theme_color": "#0d0d0f",
++  "background_color": "#1b1b1d",
++  "theme_color": "#ff6b2c",
+   "icons": [
+     {
+       "src": "icons/icon-192.png",
+       "sizes": "192x192",
+       "type": "image/png"
+     },
+     {
+       "src": "icons/icon-512.png",
+       "sizes": "512x512",
+       "type": "image/png"
+     }
+   ]
+ }
+\ No newline at end of file
+ 
+EOF
+)
