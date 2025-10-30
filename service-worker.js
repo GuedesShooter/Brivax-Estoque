@@ -1,10 +1,3 @@
-diff --git a/service-worker.js b/service-worker.js
-index 497993797d99dc045a6f9df9a4294cc0f0f7ed7a..58c6f6eff519a0f0eee18f50232b9168a1e9a2f3 100644
---- a/service-worker.js
-+++ b/service-worker.js
-@@ -1 +1,50 @@
--self.addEventListener('fetch',()=>{});
-\ No newline at end of file
 +const CACHE_NAME = 'brivax-cache-v1';
 +const ASSETS = [
 +  './',
