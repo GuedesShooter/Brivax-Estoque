@@ -1,8 +1,3 @@
-diff --git a/manifest.webmanifest b/manifest.webmanifest
-index b0c09e912173ee3fbbbd086620306b6414db2d4c..de662f04e682973c18e39bea1f60e88ea6d0f47f 100644
---- a/manifest.webmanifest
-+++ b/manifest.webmanifest
-@@ -1,20 +1,20 @@
  {
    "name": "Brivax App",
    "short_name": "Brivax",
@@ -24,5 +19,6 @@ index b0c09e912173ee3fbbbd086620306b6414db2d4c..de662f04e682973c18e39bea1f60e88e
        "type": "image/png"
      }
    ]
- }
+-}
 \ No newline at end of file
++}
